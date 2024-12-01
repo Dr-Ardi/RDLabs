@@ -1,0 +1,274 @@
+main {
+    height: 91dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards {
+    width: 90%;
+    height: 90%;
+    padding: 0 5%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-row: auto auto auto auto auto;
+    gap: 2%;
+    z-index: 10;
+}
+
+.window {
+    border: 1px solid var(--text);
+    background-color: transparent;
+    backdrop-filter: brightness(85%) blur(30px);
+    overflow: hidden;
+    --x-px: calc(var(--x) * 1px);
+    --y-px: calc(var(--y) * 1px);
+    --border: 2px;
+    &:before,
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        inset: 0px;
+        background: radial-gradient(
+        150px circle at var(--x-px) var(--y-px),
+        rgba(138, 95, 95, 0.37),
+        transparent 40%
+        );
+        filter: blur(40px);
+        pointer-events: none;
+    }
+    &:before {
+        z-index: 1;
+    }
+    &:after {
+        opacity: 0;
+        z-index: 2;
+        transition: opacity 0.4s ease;
+    }
+    &:hover:after {
+        opacity: 1;
+    }
+}
+
+.charCard {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 3;
+    border-radius: 10px 0px 0px 0px;
+    padding: 5px 20px;
+    transform-style: preserve-3d; /* Enable 3D transformations */
+    transition: transform 0.6s;
+}
+
+.card.is-flipped {
+    transform: rotateY(180deg); /* Rotate the card */
+}
+
+.card-front, 
+.card-back {
+    backface-visibility: hidden; 
+}
+
+.card-back {
+    transform: rotateY(180deg); /* Position the back side */
+}
+
+.details {
+    grid-column: 4 / span 6;
+    grid-row: 1 / span 3;
+    border-radius: 0px 10px 0px 0px;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    padding: 5px 5%;
+    overflow-y: scroll;
+}
+
+.tools {
+    grid-column: 1 / span 2;
+    grid-row: 4 / span 2;
+    min-width: 200px;
+    padding: 1px 1%;
+    border-radius: 0px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showcase {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.scrolling {
+    display: flex;
+    flex-direction: column;
+    animation: scroll 20s linear infinite;
+    animation-delay: -20s;
+}
+
+.scrolling:nth-child(2) {
+    animation: scroll2 20s linear infinite;
+    animation-delay: -40s;
+}
+
+.tool {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 15px;
+    width: 90%;
+    font-size: var(--small);
+    cursor: pointer;
+    padding: 0px 5%;
+}
+
+.tool:hover {
+    color: var(--text)
+}
+
+.icon {
+    height: 20px;
+    width: auto;
+}
+
+.work {
+    padding: 1px 5%;
+    grid-column: 3 / span 7;
+    grid-row: 4 / span 2;
+    
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes scroll2 {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes scrollx {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes scrollx2 {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+} 
+
+
+/* @media screen and (width < 1000px) and (width >= 600px){
+    main {
+        height: 100dvh;
+    }
+    .cards {
+        grid-template-rows: auto auto auto auto auto auto;
+    }
+    .charCard {
+        grid-column: 1 / span 10;
+        grid-row: 1 / span 2;
+    }
+    .details {
+        grid-column: 1 / span 10;
+        grid-row: 3 / span 3;
+    }
+    .tools {
+        grid-column: 1 / span 2;
+        grid-row: 6;
+        min-width: 150px;
+    }
+    .work {
+        grid-column: 3 / span 8;
+        grid-row: 6;
+    }
+
+    .hobby-list {
+        display: inline-flex;
+        flex-wrap: wrap;
+        column-gap: 10%;
+        margin: 0;
+        width: 90%;
+    }
+} */
+
+@media screen and (width < 1000px){
+    .cards {
+        grid-template-rows: auto auto auto auto;
+    }
+    .charCard {
+        grid-column: 1 / span 10;
+        grid-row: 1;
+    }
+    .details {
+        grid-column: 1 / span 10;
+        grid-row: 2;
+    }
+    .tools {
+        grid-column: 1 / span 10;
+        grid-row: 4;
+        min-width: 150px;
+    }
+    .work {
+        grid-column: 1 / span 10;
+        grid-row: 3;
+    }
+
+    .hobby-list {
+        display: inline-flex;
+        flex-wrap: wrap;
+        column-gap: 10%;
+        margin: 0;
+        width: 90%;
+    }
+
+    .showcase {
+        flex-direction: row;
+        overflow-x: hidden;
+    }
+
+    .scrolling {
+        flex-direction: row;
+        animation: scrollx 20s linear infinite;
+    }
+
+    .scrolling:nth-child(2) {
+        animation: scrollx2 20s linear infinite;
+    }
+    
+    .tool {
+        padding: 0px 10px;
+        column-gap: 5px;
+    }
+}
+
+@media screen and (width < 600px) {
+    .toolTag {
+        display: none;
+    }
+}

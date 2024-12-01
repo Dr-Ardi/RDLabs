@@ -1,0 +1,11 @@
+article{
+    width: 80%;
+    padding: 15px 0px;
+    margin: 0px 10%;
+}
+
+.projectList > li{
+    list-style-position: inside;
+    list-style-type:upper-roman ;
+    text-indent: 5px;
+}

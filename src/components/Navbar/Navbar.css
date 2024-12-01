@@ -1,0 +1,79 @@
+nav {
+    width: 97%;
+    height: 4dvw;
+    min-height: 60px;
+    backdrop-filter: brightness(70%) blur(30px);
+    border-bottom: 1px solid var(--background);
+    position: sticky;
+    top: 0;
+    padding: 0px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1.5%;
+    font-size: var(--nav);
+    z-index: 999;
+    overflow: hidden;
+}
+
+#rdlabs {
+    font-size: var(--logo);
+}
+
+.type {
+    color: var(--primary-color)
+}
+
+.navPanel{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    height: 100%;
+    column-gap: 30px;
+}
+
+.destination{
+    display: inline-block;
+    background-color: transparent;
+    list-style: none;
+}
+
+.destination:hover {
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.lang {
+    color: var(--text);
+    background-color: var(--background);
+    border-radius: 5px;
+    border: 2px solid var(--text);
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lang:hover {
+    background-color: var(--primary-color);
+}
+
+.lang:active {
+    background-color: var(--background);
+}
+
+.lang > option {
+    text-align: center;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px var(--primary-color), 0 0 10px var(--primary-color), 0 0 12px var(--primary-color), 0 0 14px var(--primary-color), 0 0 16px var(--primary-color);
+    }
+    
+    to {
+      text-shadow: 0 0 4px #fff, 0 0 6px var(--primary-color), 0 0 8px var(--primary-color), 0 0 12px var(--primary-color), 0 0 14px var(--primary-color), 0 0 16px var(--primary-color), 0 0 18px var(--primary-color);
+    }
+}
+
+@media screen and (width < 500px) {
+    
+}

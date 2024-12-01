@@ -1,0 +1,103 @@
+{
+    "home":{
+
+        "card": {
+            "name": "Ardi Stringa 23 y/o",
+            "titles": "Web Dev, Student",
+            "my_hobbies": "My Hobbies:",
+            "hobbies": ["Hacking", "Game Developent", "Reading", "Riddles Solving/Brainteasers"],
+            "arch": "I use Arch, btw.",
+            "button": "Flip Card",
+            "photo": "No Photo Yet."
+        },
+
+        "greeting": [
+            "Welcome to my laboratory!",
+            "This is my personal website which also serves as my portfolio.", 
+            "Furthermore, it serves as an effective means of monitoring my growth across various areas. For example, every time I learn a new language, I'll add it here.",
+            "In this page, you'll read about my work experience, tools that I'm proficient with. In my info card, there are link that may be of use."
+        ],
+
+        "tools": "The Tools I Use",
+
+        "work": ["Work Experience", "-Currently none"],
+
+        "headers":{
+            "welcome": "Welcome to RDlab!",
+            "aboutme": "About Me",
+            "hobbies": "Hobbies and Interests",
+            "associations": "Student Associations",
+            "socials": "Connect with Me"
+        },
+
+        "paragraphs":{
+
+            "welcome": "Greetings and welcome to my personal website, RDlab. My name is Ardi Stringa, and I am thrilled to have you here. I am a university student from the vibrant city of Thessaloniki, Greece, and I am currently pursuing my studies to become a full-stack/game developer. Through this website, I aim to share a glimpse into my life, my educational journey, and the various projects I have been involved in. My hope is that future employers and fellow enthusiasts will find this information both interesting and insightful.",
+            "aboutme": "The primary reason I created this website was to enhance my knowledge of React and to refine my front-end development skills. It serves as a digital portfolio where you can learn more about my academic background and explore the diverse range of projects I have undertaken. This website is a testament to my dedication to continuous learning and improvement in the field of web development.",
+            "hobbies1": "I have a multitude of hobbies and interests that keep me engaged and inspired. Reading is one of my greatest passions, particularly mystery novels. There is something uniquely captivating about unraveling a good mystery. Additionally, I am an avid watcher of movies, TV series, and anime. In the near future, I plan to dedicate a section of this website to my favorite books, movies, and shows. While you may not share the same tastes, I invite you to check it out for some excellent recommendations.",
+            "hobbies2": "Apart from reading and watching, I also enjoy playing video games and delving into the fascinating world of hacking. Although my schedule often limits the time I can dedicate to these activities, they remain important to me as they continually challenge my skills and creativity.",
+            "associations1": "I am proud to be a Member of the Local Committee (LC) of EESTEC in Thessaloniki. EESTEC, which stands for Electrical Engineering STudents' European assoCiation, is a dynamic organization with branches in 24 different countries, encompassing students from 42 universities. The association strives to foster and strengthen bonds between students across Europe through a variety of educational and entertaining events. Being a part of EESTEC has been a transformative experience for me. I have acquired invaluable knowledge and met a plethora of remarkable individuals. If you ever get the chance to join the LC in your city, or any student organization that piques your interest, I wholeheartedly recommend it. For more information, you can visit the EESTEC website.",
+            "associations2": "In addition to my involvement with EESTEC, I am also an active member of my university's IEEE student branch. My journey with IEEE began in the Technical Committee, where we maintained the branch's website using WordPress and came up with exciting IT projects. Currently, I am serving on the Membership Committee, which primarily focuses on human resources. In this role, my responsibilities include recruiting new members, addressing inquiries about the branch, and organizing engaging activities. The aim is to foster a sense of community and ensure that our members have a fulfilling and enriching experience with IEEE.",
+            "socials": "I am active on multiple social media platforms such as Instagram and Facebook, though these accounts are private. As much as I appreciate the interest, there's no point in searching for them unless you have a penchant for hacking (please don't!). However, I do have a GitHub account where you are more than welcome to follow me. On GitHub, you can explore all my projects, both past and current. It is a space where I share my code, collaborate with others, and continue to grow as a developer.",
+            "bye": "Feel free to explore the various sections of my website, particularly the section showcasing my projects. If you have any advice or suggestions for improvement, I would greatly appreciate your feedback. You can reach out to me via email at ",
+            "thanks": "Thank you for visiting RDlab, and I hope you find the content here both engaging and informative."
+        }
+        
+    },
+
+    "education":{
+
+        "headers":{
+            "uni": "My University Experience"
+        },
+
+        "paragraphs":{
+            "uni1": "Welcome to this section of my website where I share details about my university experience and the knowledge I have gained during my time here.",
+            "uni2": "I am currently pursuing my studies at the International Hellenic University (IHU), situated in Sindos, Thessaloniki. I embarked on this academic journey in the 2021-2022 academic year, and I am now in my sixth semester. The International Hellenic University has a rich history, having been established in October 2005 as Greece's first public university to offer programs exclusively in English. This was a significant milestone for higher education in Greece, marking a new era of internationalization and accessibility.",
+            "uni3": "Originally, the university was based solely in Thessaloniki and comprised three schools, offering a total of twenty-four master’s programs. However, a major restructuring took place in 2019, which transformed the university's structure significantly. This reform incorporated three Technological Educational Institutes (TEIs) from Northern Greece into the International Hellenic University. As a result, the university expanded its reach and capabilities, now consisting of nine schools and thirty-three departments. The campuses are dispersed across nine different cities in Greece, making IHU a truly widespread and multifaceted institution.",
+            "uni4": "I am enrolled in the Department of Information and Electronic Engineering, a department that emerged from the merger of the Departments of Information Technology and Electronic Engineering in the spring of 2019. This merger created a comprehensive and dynamic department, which welcomed its first batch of students in September 2019. The department's facilities are located in Sindos and include nine lecture classrooms, two amphitheaters, and twenty laboratory rooms. These laboratories are equipped with state-of-the-art technology and tools, providing an excellent environment for both learning and research.",
+            "uni5": "As of now, I am in the sixth of ten academic semesters, and my journey at IHU has been both challenging and rewarding. The curriculum is designed to provide a robust foundation in engineering principles. We have covered a wide array of subjects, starting with the basics of mathematics, which are crucial for any engineering discipline. In addition to math, we have been introduced to several programming languages, including C, Java, and Assembly. These languages are fundamental in the field of computer science and engineering, and mastering them is essential for any aspiring developer.",
+            "uni6": "Moreover, the program has expanded to cover various aspects of web development and mobile application development. These courses have equipped me with the skills needed to create functional and user-friendly applications and websites. We have also delved into database management, learning how to design, implement, and maintain databases, which are critical components of most modern software systems.",
+            "uni7": "The education I have received at IHU is not limited to theoretical knowledge. The university places a strong emphasis on practical, hands-on learning, ensuring that students are well-prepared for the demands of the professional world. The modern and well-equipped laboratories have been instrumental in providing practical experience, allowing me to apply theoretical concepts in real-world scenarios.",
+            "uni8": "The International Hellenic University has played a pivotal role in shaping my academic and professional aspirations. The comprehensive education, coupled with the diverse and vibrant student community, has enriched my university experience in countless ways. I have had the opportunity to learn from experienced faculty members, collaborate with fellow students on exciting projects, and participate in various extracurricular activities that have broadened my horizons.",
+            "uni9": "For those interested in learning more about the International Hellenic University and the various programs it offers, I highly recommend visiting their official website here: ",
+            "uni10": "The website provides detailed information about the university's history, structure, academic programs, and much more."
+           
+        }
+        
+    },
+
+    "projects":{
+
+        "headers":{
+            "welcome": "My Projects",
+            "rdlab": "RDlab: This Website",
+            "gpgp": "Mock Pizzeria Web App",
+            "arthur": "Voice Assistant",
+            "thessviv": "ThessVivlio: Library Mobile App",
+            "waffle": "WAFfle: Web Application Firewall",
+            "soon": "Upcoming Projects"
+        },
+
+        "list":{
+            "rdlab": "This Website (RDlab)",
+            "gpgp": "Mock Pizzeria Web App",
+            "arthur": "Voice Assistant",
+            "thessviv": "Library App",
+            "waffle": "A Simple Firewall"
+        },
+
+        "paragraphs":{
+            "welcome": "Welcome to the section of my website where I provide brief descriptions of the various projects I have worked on. So far, I have completed three projects, each of which has helped me grow and develop my skills in different areas of software development. Here are the projects I've worked on:",
+            "rdlab": "First and foremost, let's talk about RDlab, the very website you are currently exploring. This website began as a school project, initially consisting of several HTML pages, a CSS file, and a bit of JavaScript. It was a simple project with a few issues, but it served as my introduction to web development. Not too long ago, I decided to revamp the website using React. My motivation for this update stemmed from my desire to learn and master React, a popular JavaScript library for building user interfaces. Prior to this, I had no experience with React, but I was eager to expand my knowledge and enhance my front-end development skills. I've already explained the purpose of creating this website, so there's not much more to add here. However, I am proud of the progress I've made and the improvements implemented.",
+            "gpgp": "Secondly, I developed a mock Pizzeria web application. This project was particularly exciting because it involved creating a fully functional web app that mimics the operations of a pizzeria. The concept is straightforward: users can scan a QR code, which directs them to the website. Once there, they can perform various actions typical of a pizzeria experience, such as placing orders, calling the waiter, and more, all through their device. For the front-end, I used Angular, a powerful framework for building dynamic web applications. The back-end was developed using Spring Boot, a Java-based framework, and PostgreSQL was utilized for the database. The primary objective of this project was to gain hands-on experience with Angular, Spring Boot, and full-stack development. It provided me with valuable insights into how these technologies work together to create seamless, interactive web applications. You can find the files and detailed documentation of this project on my GitHub.",
+            "arthur": "In addition, I embarked on a project to create a voice assistant using Python. This project is still in its early stages, so there isn't much to showcase at the moment. However, the goal is to develop a functional voice assistant capable of performing various tasks based on voice commands. This project is particularly interesting because it combines aspects of artificial intelligence and natural language processing, and I am eager to see how it evolves as I continue to work on it.",
+            "thessviv": "One of my significant projects is the development of a mobile application named ThessVivlio, created for a university course. The name combines \"Thess,\" referring to Thessaloniki, with the Greek words “Θες” (Thes), meaning \"want,\" and \"Βιβλίο\" (Vivlio), meaning \"book,\". ThessVivlio was developed using Android Studio and the Java programming language. For database management, I utilized the Room API and Firestore. The Room API provides an abstraction layer over SQLite, simplifying database operations, while Firestore offers robust real-time data synchronization and offline support. The app includes all essential library functionalities: users can browse a vast collection of books, search for specific titles or authors, manage book loans, view book details, check availability, and reserve books. Additionally, it features user account management, borrowing history, and notifications for due dates and new arrivals.",
+            "waffle": "As part of my Information Security class, I developed a simple web application firewall, or WAF, named WAFfle. This project was created using Python, with Flask handling the HTML pages for testing WAFfle's functionality. Despite its simplicity, WAFfle provides basic protection against common attacks such as DOS and SQL injection. The firewall includes a control panel where administrators can view allowed and denied requests, along with other pertinent information.",
+            "soon1": "In addition to the projects mentioned above, I have several exciting projects planned for the near future. I have already discussed my intention to create a website dedicated to my favorite books and movies. This project aims to provide reviews and recommendations, and I am looking forward to sharing my thoughts on various works of fiction and film",
+            "soon2": "Finally, the project I am most excited about is a game that the IT team (including myself) of our EESTEC Local Committee will be developing. While I cannot disclose too many details at this moment, I assure you it is a project that promises to be both innovative and impactful. Stay tuned for more updates!",
+            "end": "I hope you find these projects as interesting as I do. Each one has been a learning experience, contributing to my growth as a developer. If you have any questions or suggestions, feel free to reach out!"
+        }
+        
+    }
+}
