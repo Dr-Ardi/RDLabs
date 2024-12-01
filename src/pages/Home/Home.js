@@ -7,7 +7,7 @@ export default function Home({ home }){
     const [tools, setTools] = useState([]);
     const [isFlipped, setIsFlipped] = useState(false);
 
-    const url = `https://dr-ardi.github.io/LabsContent/tools.json`;
+    const url = `https://dr-ardi.github.io/LabsContent/tools/tools.json`;
 
     useEffect(() => {
         fetch(url)
@@ -66,7 +66,7 @@ export default function Home({ home }){
 
     return (
         <main ref={featuresElRef}>
-            <div className="cards">
+            { home &&<div className="cards">
                 <div className={`charCard window ${isFlipped ? "is-flipped" : ""}`} ref={(el) => (featureElsRef.current[0] = el)}>
                     <div className="card-front">
                         <p style={{textAlign: "center", fontSize: "1.1rem"}}><strong>{home.card.name}</strong></p>
@@ -100,7 +100,7 @@ export default function Home({ home }){
                         return (<p key={"work"+index}>{work}</p>)
                     })}
                 </div>
-            </div>
+            </div>}
         </main>
     );
 }
