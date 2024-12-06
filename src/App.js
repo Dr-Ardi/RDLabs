@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home/Home';
 import Academics from './pages/Academics/Academics';
 import Projects from './pages/Projects/Projects';
+import { Route, Routes } from 'react-router';
 
 function App() {
 
@@ -27,9 +28,11 @@ function App() {
   return (
       <div className="App">
         <Navbar />
-        {/* <Home home={lang.home} />  */}
-        {/* <Academics aca={lang.academics} /> */}
-        <Projects pro={lang.projects}/>
+        <Routes>
+          <Route exact path="/" element={<Home home={lang.home} />} /> 
+          <Route exact path="/academics" element={<Academics aca={lang.academics} />} /> 
+          <Route exact path="/projects" element={<Projects pro={lang.projects} />} /> 
+        </Routes>
       </div>
   );
 }

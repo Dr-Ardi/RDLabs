@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './Navbar.css'
+import { Link } from 'react-router';
 
 export default function Navbar() {
 
@@ -32,13 +33,13 @@ export default function Navbar() {
 
         <ul className="navPanel">
             <li className="destination">
-                Home
+                <Link to="/">Home</Link>
             </li>
             <li className="destination">
-                Education
+                <Link to="/academics">Academics</Link>
             </li>
             <li className="destination">
-                Projects
+                <Link to="/projects">Projects</Link>
             </li>
             {/* <li className="destination">
                 <select className='lang'>
