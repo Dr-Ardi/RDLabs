@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/RDLabs/static/css/main.d9ff33d5.css",
-    "main.js": "/RDLabs/static/js/main.ef1cc1fe.js",
+    "main.css": "/RDLabs/static/css/main.f3c72dcd.css",
+    "main.js": "/RDLabs/static/js/main.ce0da856.js",
     "static/js/453.37d5511d.chunk.js": "/RDLabs/static/js/453.37d5511d.chunk.js",
     "index.html": "/RDLabs/index.html",
-    "main.d9ff33d5.css.map": "/RDLabs/static/css/main.d9ff33d5.css.map",
-    "main.ef1cc1fe.js.map": "/RDLabs/static/js/main.ef1cc1fe.js.map",
+    "main.f3c72dcd.css.map": "/RDLabs/static/css/main.f3c72dcd.css.map",
+    "main.ce0da856.js.map": "/RDLabs/static/js/main.ce0da856.js.map",
     "453.37d5511d.chunk.js.map": "/RDLabs/static/js/453.37d5511d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9ff33d5.css",
-    "static/js/main.ef1cc1fe.js"
+    "static/css/main.f3c72dcd.css",
+    "static/js/main.ce0da856.js"
   ]
 }
