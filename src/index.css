@@ -17,6 +17,9 @@ body {
   font-size: var(--small);
   cursor: pointer;
 }
+* > button:hover {
+  color: var(--primary-color);
+}
 
 html {
   /* font-size: clamp(16px, 1.5vw, 25px); */
@@ -38,7 +41,7 @@ a:hover {
 
 :root {
   --background: #0C0F14;
-  --text: rgb(185, 196, 206);
+  --text: #b9c4ce;
   --primary-color: #4e0511;
 
   --text-font: 'Merriweather', serif;
