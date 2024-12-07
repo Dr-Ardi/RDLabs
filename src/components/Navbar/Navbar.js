@@ -47,13 +47,16 @@ export default function Navbar() {
 
         <ul className="navPanel">
             <li className="destination">
-                <Link to="/" className={loc.pathname === "/" ? "active" : ""}>{screenWidth > 600 ? "Home" : "🏠︎"}</Link>
+                {/* <Link to="/" className={loc.pathname === "/" ? "active" : ""}>{screenWidth > 600 ? "Home" : "🏠︎"}</Link> */}
+                <Link to="/" className={loc.pathname === "/" ? "active" : ""}>Home</Link>
             </li>
             <li className="destination">
-                <Link to="/academics" className={loc.pathname === "/academics" ? "active" : ""}>{screenWidth > 600 ? "Academics" : "🕮"}</Link>
+                {/* <Link to="/academics" className={loc.pathname === "/academics" ? "active" : ""}>{screenWidth > 600 ? "Academics" : "🕮"}</Link> */}
+                <Link to="/academics" className={loc.pathname === "/academics" ? "active" : ""}>Academics</Link>
             </li>
             <li className="destination">
-                <Link to="/projects" className={loc.pathname === "/projects" ? "active" : ""}>{screenWidth > 600 ? "Projects" : "</>"}</Link>
+                {/* <Link to="/projects" className={loc.pathname === "/projects" ? "active" : ""}>{screenWidth > 600 ? "Projects" : "</>"}</Link> */}
+                <Link to="/projects" className={loc.pathname === "/projects" ? "active" : ""}>Projects</Link>
             </li>
             {/* <li className="destination">
                 <select className='lang'>

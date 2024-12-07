@@ -6,14 +6,12 @@ nav {
     border-bottom: 1px solid var(--background);
     position: sticky;
     top: 0;
-    padding: 0px 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 1.5%;
     font-size: var(--nav);
     z-index: 999;
-    overflow: hidden;
 }
 
 #rdlabs {
@@ -88,16 +86,54 @@ nav {
 }
 
 @media screen and (width < 600px) {
+    nav {
+        height: 10dvh;
+        align-self: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0px;
+        width: 100%;
+    }
+    #rdlabs {
+        margin: 0px;
+        padding: 10px 0px;
+    }
     .navPanel {
-        column-gap: 20px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin: 0px;
+        background-color: var(--background);
+        height: fit-content;
+        padding: 5px 0px;
+        box-shadow: 0 -.25px  var(--text), 0 .25px  var(--text);
     }
     .destination {
+        display: flex;
+        justify-content: space-around;
         font-size: 25px;
         height: 100%;
         display: flex;
         align-items: center;
     }
     .destination > a {
-        height: 43px;
+        height: 100%;
+        font-size: 16px;
+        width: 82px;
+        text-align: center;
+    }
+}
+
+@media screen and (width < 350px) {
+    .destination > a {
+        font-size: 14px;
+        width: 73px;
+    }
+}
+
+@media screen and (width < 290px) {
+    .destination > a {
+        font-size: 12px;
+        width: 63px;
     }
 }
