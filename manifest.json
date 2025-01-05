@@ -1,5 +1,5 @@
 {
-  "short_name": "RDLabs",
+  "short_name": "RD's Laboratory",
   "name": "RDLabs",
   "icons": [
     {
@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "rdlabs_icon.png",
+      "src": "rd.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "rdlabs_icon.png",
+      "src": "rd.png",
       "type": "image/png",
       "sizes": "512x512"
     }
