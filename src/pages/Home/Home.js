@@ -1,24 +1,14 @@
 import { useState, useRef, useEffect } from "react";
 import './Home.css'
+import toolset from '../../labscont/tools/tools.json'
 
 export default function Home({ home }){
 
     
-    const [tools, setTools] = useState([]);
+    const [tools, setTools] = useState(toolset.tools);
     const [isFlipped, setIsFlipped] = useState(false);
 
-    const url = `https://dr-ardi.github.io/LabsContent/tools/tools.json`;
-
     useEffect(() => {
-        fetch(url)
-        .then((response) => response.json())
-        .then((data) => {
-            setTools(data.tools); 
-        })
-        .catch((error) => {
-            console.error('Error fetching JSON:', error);
-        });
-
         const featuresEl = featuresElRef.current;
         featuresEl.addEventListener("pointermove", handlePointerMove);
         return () => {

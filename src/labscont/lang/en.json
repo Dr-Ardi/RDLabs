@@ -1,0 +1,97 @@
+{
+    "home":{
+
+        "card": {
+            "name": "Ardi Stringa 21 y/o",
+            "titles": "Web Dev, Student",
+            "my_hobbies": "My Hobbies:",
+            "hobbies": ["Hacking", "Game Developent", "Reading", "Riddles Solving/Brainteasers"],
+            "arch": "I use Arch, btw.",
+            "button": "Flip Card",
+            "photo": "No Photo Yet."
+        },
+
+        "greeting": [
+            "Welcome to my laboratory!",
+            "This is my personal website which also serves as my portfolio.", 
+            "Furthermore, it serves as an effective means of monitoring my growth across various areas. For example, every time I learn a new language, I'll add it here.",
+            "In this page, you'll read about my work experience, tools that I'm proficient with. In my info card, there are link that may be of use."
+        ],
+
+        "tools": "The Tools I Use",
+
+        "work": ["Work Experience", "-Currently none"]
+            
+    },
+
+    "academics":{
+
+        "uni":[
+            "My University Experience",
+            "Welcome to this section of my website where I share details about my university experience and the knowledge I have gained during my time here.",
+            "I am currently pursuing my studies at the International Hellenic University (IHU), situated in Sindos, Thessaloniki. I embarked on this academic journey in the 2021-2022 academic year, and I am now in my sixth semester. The International Hellenic University has a rich history, having been established in October 2005 as Greece's first public university to offer programs exclusively in English. This was a significant milestone for higher education in Greece, marking a new era of internationalization and accessibility.",
+            "Originally, the university was based solely in Thessaloniki and comprised three schools, offering a total of twenty-four master’s programs. However, a major restructuring took place in 2019, which transformed the university's structure significantly. This reform incorporated three Technological Educational Institutes (TEIs) from Northern Greece into the International Hellenic University. As a result, the university expanded its reach and capabilities, now consisting of nine schools and thirty-three departments. The campuses are dispersed across nine different cities in Greece, making IHU a truly widespread and multifaceted institution.",
+            "I am enrolled in the Department of Information and Electronic Engineering, a department that emerged from the merger of the Departments of Information Technology and Electronic Engineering in the spring of 2019. This merger created a comprehensive and dynamic department, which welcomed its first batch of students in September 2019. The department's facilities are located in Sindos and include nine lecture classrooms, two amphitheaters, and twenty laboratory rooms. These laboratories are equipped with state-of-the-art technology and tools, providing an excellent environment for both learning and research.",
+            "As of now, I am in the sixth of ten academic semesters, and my journey at IHU has been both challenging and rewarding. The curriculum is designed to provide a robust foundation in engineering principles. We have covered a wide array of subjects, starting with the basics of mathematics, which are crucial for any engineering discipline. In addition to math, we have been introduced to several programming languages, including C, Java, and Assembly. These languages are fundamental in the field of computer science and engineering, and mastering them is essential for any aspiring developer.",
+            "Moreover, the program has expanded to cover various aspects of web development and mobile application development. These courses have equipped me with the skills needed to create functional and user-friendly applications and websites. We have also delved into database management, learning how to design, implement, and maintain databases, which are critical components of most modern software systems.",
+            "The education I have received at IHU is not limited to theoretical knowledge. The university places a strong emphasis on practical, hands-on learning, ensuring that students are well-prepared for the demands of the professional world. The modern and well-equipped laboratories have been instrumental in providing practical experience, allowing me to apply theoretical concepts in real-world scenarios.",
+            "The International Hellenic University has played a pivotal role in shaping my academic and professional aspirations. The comprehensive education, coupled with the diverse and vibrant student community, has enriched my university experience in countless ways. I have had the opportunity to learn from experienced faculty members, collaborate with fellow students on exciting projects, and participate in various extracurricular activities that have broadened my horizons.",
+            "For those interested in learning more about the International Hellenic University, like it's history, structure, etc, and the various programs it offers, I highly recommend visiting their official website here: "
+        ]
+
+    },
+
+    "projects":{
+
+        "title": "My Projects",
+        "intro": "Welcome to the section of my website where I provide brief descriptions of the various projects I have worked on. So far, I have completed three projects, each of which has helped me grow and develop my skills in different areas of software development. Here are the projects I've worked on:",
+
+        "projects": [
+            {
+                "title": "RDlabs",
+                "abstract": "This website right here",
+                "color": "#FF0000",
+                "link": "https://github.com/Dr-Ardi",
+                "description": [
+                    "First and foremost, let's talk about RDlab, the very website you are currently exploring. This website began as a school project, initially consisting of several HTML pages, a CSS file, and a bit of JavaScript. It was a simple project with a few issues, but it served as my introduction to web development. Not too long ago, I decided to revamp the website using React. My motivation for this update stemmed from my desire to learn and master React, a popular JavaScript library for building user interfaces. Prior to this, I had no experience with React, but I was eager to expand my knowledge and enhance my front-end development skills. I've already explained the purpose of creating this website, so there's not much more to add here. However, I am proud of the progress I've made and the improvements implemented."
+                ]
+            },
+            {
+                "title": "Good Pizza Great Pizza",
+                "abstract": "A Mock Pizzeria Web App",
+                "color": "#ff8700",
+                "link": "https://github.com/Dr-Ardi/GoodPizzaGreatPizza",
+                "description": [
+                    "Secondly, I developed a mock Pizzeria web application. This project was particularly exciting because it involved creating a fully functional web app that mimics the operations of a pizzeria. The concept is straightforward: users can scan a QR code, which directs them to the website. Once there, they can perform various actions typical of a pizzeria experience, such as placing orders, calling the waiter, and more, all through their device. For the front-end, I used Angular, a powerful framework for building dynamic web applications. The back-end was developed using Spring Boot, a Java-based framework, and PostgreSQL was utilized for the database. The primary objective of this project was to gain hands-on experience with Angular, Spring Boot, and full-stack development. It provided me with valuable insights into how these technologies work together to create seamless, interactive web applications. You can find the files and detailed documentation of this project on my GitHub."
+                ]
+            },
+            {
+                "title": "WAFfle",
+                "abstract": "A Simple Web Application Firewall",
+                "color": "#51d2ec",
+                "link": "https://github.com/Dr-Ardi/WAFfle",
+                "description": [
+                    "As part of my Information Security class, I developed a simple web application firewall, or WAF, named WAFfle. This project was created using Python, with Flask handling the HTML pages for testing WAFfle's functionality. Despite its simplicity, WAFfle provides basic protection against common attacks such as DOS and SQL injection. The firewall includes a control panel where administrators can view allowed and denied requests, along with other pertinent information."
+                ]
+            },
+            {
+                "title": "ThessVivlio",
+                "abstract": "Library Mobile App",
+                "color": "#ede381",
+                "link": "https://github.com/Dr-Ardi/ThessVivlio",
+                "description": [
+                    "One of my significant projects is the development of a mobile application named ThessVivlio, created for a university course. The name combines \"Thess,\" referring to Thessaloniki, with the Greek words “Θες” (Thes), meaning \"want,\" and \"Βιβλίο\" (Vivlio), meaning \"book,\". ThessVivlio was developed using Android Studio and the Java programming language. For database management, I utilized the Room API and Firestore. The Room API provides an abstraction layer over SQLite, simplifying database operations, while Firestore offers robust real-time data synchronization and offline support. The app includes all essential library functionalities: users can browse a vast collection of books, search for specific titles or authors, manage book loans, view book details, check availability, and reserve books. Additionally, it features user account management, borrowing history, and notifications for due dates and new arrivals."
+                ]
+            },
+            {
+                "title": "Arthur",
+                "abstract": "Personal AI Voice Assistant",
+                "color": "#51ecb9",
+                "link": "https://github.com/Dr-Ardi",
+                "description": [
+                    "In addition, I embarked on a project to create a voice assistant using Python. This project is still in its early stages, so there isn't much to showcase at the moment. However, the goal is to develop a functional voice assistant capable of performing various tasks based on voice commands. This project is particularly interesting because it combines aspects of artificial intelligence and natural language processing, and I am eager to see how it evolves as I continue to work on it."
+                ]
+            }
+        ]
+    }
+}

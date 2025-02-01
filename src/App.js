@@ -7,23 +7,11 @@ import Home from './pages/Home/Home';
 import Academics from './pages/Academics/Academics';
 import Projects from './pages/Projects/Projects';
 import { Route, Routes } from 'react-router';
+import language from './labscont/lang/en.json'
 
 function App() {
 
-  const [lang, setLang] = useState([]);
-
-  const url = `https://dr-ardi.github.io/LabsContent/lang/en.json`;
-
-  useEffect(() => {
-      fetch(url)
-      .then((response) => response.json())
-      .then((data) => {
-          setLang(data); 
-      })
-      .catch((error) => {
-          console.error('Error fetching JSON:', error);
-      });
-  }, [])
+  const [lang, setLang] = useState(language);
 
   return (
       <div className="App">
