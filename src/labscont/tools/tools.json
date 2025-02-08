@@ -22,7 +22,7 @@
         },
         {
             "name": "Nodejs",
-            "image": "https://imgs.search.brave.com/FfIehN7XKxDIYyYoUlbJyNRktsMDWbuhlvQeMGy65aI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL04vbm9kZWpz/LWxvZ28tRkJFMTIy/RTM3Ny1zZWVrbG9n/by5jb20ucG5n",
+            "image": "https://imgs.search.brave.com/QPF38ka4pQ6Uo07ALpvHDZE_DBjv8Z8DjbX7SKSOOn0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yYXcu/Z2l0aHVidXNlcmNv/bnRlbnQuY29tL2xl/dW5nd2Vuc2VuL3N2/Zy1pY29uL21hc3Rl/ci9kaXN0L3N2Zy9s/b2dvcy9ub2RlanMt/aWNvbi5zdmc",
             "link": "https://nodejs.org/en"
         },
         {
@@ -76,8 +76,13 @@
             "link": "https://www.linux.org/"
         },
         {
+            "name": "CSS",
+            "image": "https://imgs.search.brave.com/mglfu_675N11DBczte8uXHVrAVagq0a0CAXTFbHbdwA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTIuZGV2LnRvL2R5/bmFtaWMvaW1hZ2Uv/d2lkdGg9ODAwLGhl/aWdodD0sZml0PXNj/YWxlLWRvd24sZ3Jh/dml0eT1hdXRvLGZv/cm1hdD1hdXRvL2h0/dHBzOi8vZGV2LXRv/LXVwbG9hZHMuczMu/YW1hem9uYXdzLmNv/bS91cGxvYWRzL2Fy/dGljbGVzLzdqMzUz/djh4ZTFoODYxdWM1/aTUzLnBuZw",
+            "link": "https://drafts.csswg.org/"
+        },
+        {
             "name": "R Lang",
-            "image": "https://imgs.search.brave.com/HJv3O-tGcKP7oD_pT87EhZSjY70ONMmrd7Pak4q5uJ4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL1Ivci1wcm9q/ZWN0LWxvZ28tQTEw/MUIxMTI3MC1zZWVr/bG9nby5jb20ucG5n",
+            "image": "https://imgs.search.brave.com/UE7zgmmhwTWBD6WSgVTVAeEvVSfmrJOBcvRjnz0gSdI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8x/LzFiL1JfbG9nby5z/dmc",
             "link": "https://www.r-project.org/"
         }
     ]
